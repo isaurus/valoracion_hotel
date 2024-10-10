@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ValoracionHotel</string>
+    <string name="lbl_personal">Personal</string>
+    <string name="lbl_instalaciones">Instalaciones</string>
+    <string name="lbl_servicios">Servicios</string>
+    <string name="lbl_limpieza">Limpieza</string>
+    <string name="lbl_confort">Confort</string>
+    <string name="lbl_calidad_precio">Calidad/Precio</string>
+    <string name="lbl_ubicacion">Ubicación</string>
+    <string name="btn_nueva_valoracion">Nueva Valoración</string>
+    <string name="txt_valoracion_personal">0</string>
+    <string name="txt_valoracion_instalaciones">0</string>
+    <string name="txt_valoracion_servicios">0</string>
+    <string name="txt_valoracion_limpieza">0</string>
+    <string name="txt_valoracion_confort">0</string>
+    <string name="txt_valoracion_calidad_precio">0</string>
+    <string name="txt_valoracion_ubicacion">0</string>
+</resources>
