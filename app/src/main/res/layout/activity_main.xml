@@ -17,14 +17,14 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="90dp"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/lbl_personal" />
 
         <RatingBar
             android:id="@+id/rbPersonal"
-            android:layout_width="wrap_content"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:numStars="4"
@@ -34,7 +34,6 @@
             android:id="@+id/txtValoracionPersonal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
             android:text="@string/txt_valoracion_personal"
@@ -49,23 +48,23 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="90dp"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/lbl_instalaciones" />
 
         <RatingBar
             android:id="@+id/rbInstalaciones"
-            android:layout_width="wrap_content"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:numStars="4" />
+            android:numStars="4"
+            android:stepSize="1" />
 
         <TextView
             android:id="@+id/txtValoracionInstalaciones"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
             android:text="@string/txt_valoracion_instalaciones"
@@ -80,23 +79,23 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="90dp"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/lbl_servicios" />
 
         <RatingBar
             android:id="@+id/rbServicios"
-            android:layout_width="wrap_content"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:numStars="4" />
+            android:numStars="4"
+            android:stepSize="1" />
 
         <TextView
             android:id="@+id/txtValoracionServicios"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
             android:text="@string/txt_valoracion_servicios"
@@ -111,23 +110,23 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="90dp"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/lbl_limpieza" />
 
         <RatingBar
             android:id="@+id/rbLimpieza"
-            android:layout_width="wrap_content"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:numStars="4" />
+            android:numStars="4"
+            android:stepSize="1" />
 
         <TextView
             android:id="@+id/txtValoracionLimpieza"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
             android:text="@string/txt_valoracion_limpieza"
@@ -142,23 +141,23 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="90dp"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/lbl_confort" />
 
         <RatingBar
             android:id="@+id/rbConfort"
-            android:layout_width="wrap_content"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:numStars="4" />
+            android:numStars="4"
+            android:stepSize="1" />
 
         <TextView
             android:id="@+id/txtValoracionConfort"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
             android:text="@string/txt_valoracion_confort"
@@ -173,23 +172,23 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="90dp"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/lbl_calidad_precio" />
 
         <RatingBar
             android:id="@+id/rbCalidadPrecio"
-            android:layout_width="wrap_content"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:numStars="4" />
+            android:numStars="4"
+            android:stepSize="1" />
 
         <TextView
             android:id="@+id/txtValoracionCalidadPrecio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
             android:text="@string/txt_valoracion_calidad_precio"
@@ -204,23 +203,23 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="90dp"
+            android:layout_width="65dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/lbl_ubicacion" />
 
         <RatingBar
             android:id="@+id/rbUbicacion"
-            android:layout_width="wrap_content"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:numStars="4" />
+            android:numStars="4"
+            android:stepSize="1" />
 
         <TextView
             android:id="@+id/txtValoracionUbicacion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
             android:layout_weight="1"
             android:text="@string/txt_valoracion_ubicacion"
